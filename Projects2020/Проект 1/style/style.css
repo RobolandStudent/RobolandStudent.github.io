@@ -1,0 +1,77 @@
+/*-----НАВИГАЦИОННАЯ ПАНЕЛЬ-----*/
+.navigation{
+    /*шрифт панель навигации*/
+    font-family:Arial;
+     /*  ширна произвольная, не стесняйтесь экспериментировать */
+    width: 320px;
+    min-width: 320px;
+    /* фиксируем и выставляем высоту панели на максимум */
+    height: 100%;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    /* внутренние отступы */
+    padding: 20px 20px;
+    /* определяем цвет фона панели */
+    background: #16a085;
+    /* поверх других элементов */
+    z-index: 2000;
+
+}
+/*стиль ссылок*/
+.navigation a{
+    /* убираем стандартный стиль */
+    text-decoration: none;
+    /* задаем цвет */
+    color:white;
+}
+/*стиль ссылок при нажатии*/
+.navigation a:hover{
+    text-decoration: none;
+    color:black;
+    background: #FFD700;
+}
+/*-----БЛОК ОСНОВНОЙ ИНФОРМАЦИИ-----*/
+
+.main{
+    /*шрифт*/
+    font-family:Arial;
+     width: 50%;
+     min-width: 320px;
+    /* фиксируем и выставляем высоту панели на максимум */
+    height: 100%;
+    position: fixed;
+    top: 20px;
+    left: 400px;
+    /* определяем цвет фона панели */
+    background: #DCDCDC;
+    /* внутренние отступы */
+    padding: 20px 20px;
+    /* определяем размер текста */
+    font-size:20px;
+    text-indent: 40px;
+}
+/* заголовок */
+.main h1{
+    /* тень заголовка */
+    text-shadow: 1px 1px 2px black, 0 0 1em #16a085;
+    /* размер */
+    font-size: 2em;
+    /* определяем цвет заголовка */
+    color: white;
+}
+.main a{
+    /* убираем стандартный стиль */
+    text-decoration: none;
+    color: black;
+}
+/* стиль для программного кода */
+.code_style{
+    /* цвет фона */
+    background: white;
+    /* внутренний отступ */
+    padding:20px;
+    text-indent: 0px;
+    /* максимальная ширина */
+    max-width: 600px;
+}
